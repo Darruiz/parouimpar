@@ -29,7 +29,7 @@
 			// Obtém o número escolhido pelo usuário.
 			$numeroUsuario = $_POST['numero'];
 			// Gera um número aleatório para o computador ;)
-			$numeroComputador = rand(1, 10);
+			$numeroComputador = rand(0, 10);
 			// Calcula a soma dos números ;)
 			$soma = $numeroUsuario + $numeroComputador;
 			// Verifica se a soma é par ou ímpar
@@ -87,7 +87,7 @@
 		</select>
 		<br>
 		<label>Número:</label>
-		<input type="number" name="numero" min="1" max="10">
+		<input type="number" name="numero" min="0" max="10">
 		<br>
 		<button type="submit">Jogar</button>
 	</form>
