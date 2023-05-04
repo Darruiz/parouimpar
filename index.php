@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="style.css">
 	<title>Jogo Par ou Ímpar</title>
 </head>
 <body>
 
-	<h1>teste result</h1>
+	<h1>Par ou Ímpar</h1>
 	<?php
 		// Inicia o placar o contador e o histórico de resultados.
 		session_start();
@@ -91,6 +92,8 @@
 		<br>
 		<button type="submit">Jogar</button>
 	</form>
+
+	<footer>&copy; Darruiz 2023</footer>
 
 </body>
 </html>
